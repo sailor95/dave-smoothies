@@ -12,6 +12,13 @@
           </li>
         </ul>
       </div>
+      <span class="btn-floating btn-large halfway-fab pink">
+        <router-link
+          :to="{name: 'EditSmoothie', params: {smoothie_slug: smoothie.slug}}"
+        >
+          <i class="material-icons edit">edit</i>
+        </router-link>
+      </span>
     </div>
   </div>
 </template>
@@ -42,7 +49,6 @@ export default {
       .then(snapshot => {
         snapshot.forEach(doc => {
           let smoothie = doc.data();
-          console.log(smoothie);
           smoothie.id = doc.id;
           this.smoothies.push(smoothie);
         });
