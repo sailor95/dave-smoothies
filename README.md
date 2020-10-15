@@ -1,21 +1,9 @@
 # ninja-smoothies
 
-> A Vue.js project
+A simple Vue.js SPA with CRUD function connected to Google Firebase.
 
-## Build Setup
+Host on firebase: https://ninja-smoothies-f902f.web.app/#/
 
-``` bash
-# install dependencies
-npm install
+## Demo
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+![App snapshot](./src/assets/demo.png)
