@@ -1,8 +1,8 @@
 # ninja-smoothies
 
-Vue.js SPA with CRUD function connected to Google Firebase.
+Vue.js SPA with CRUD function hosted on Google Firebase.
 
-Hosted on firebase: https://ninja-smoothies-f902f.web.app/#/
+Demo link: https://ninja-smoothies-f902f.web.app/#/
 
 ## Demo
 
