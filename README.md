@@ -1,4 +1,4 @@
-# ninja-smoothies
+# dave-smoothies
 
 A Vue.js SPA with CRUD functions hosted on Google Firebase.
 
